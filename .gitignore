@@ -11,6 +11,6 @@ dist/
 out/
 
 # logs
-npm-debug.log*
+npmS-debug.log*
 yarn-debug.log*
 yarn-error.log*
