@@ -24,23 +24,6 @@ Features:
 - AI-powered report generation using OpenAI
 - Secure environment variable management
 - Deployable to Vercel
-
-## Setup Instructions
-
-### Public Website
-1. Upload the contents of the `public-website` directory to Netlify
-2. Configure Netlify Forms for the contact form
-3. Point DNS from Fasthosts to Netlify
-
-### Internal AI Report Tool
-1. Navigate to the `internal-tool` directory
-2. Install dependencies: `npm install`
-3. Create a `.env.local` file with required environment variables
-4. Run the development server: `npm run dev`
-5. For production deployment, push to GitHub and connect to Vercel
-
-## Environment Variables (Internal Tool)
-
 Create a `.env.local` file in the `internal-tool` directory with:
 ```
 OPENAI_API_KEY=your_openai_api_key_here
